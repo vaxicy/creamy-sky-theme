@@ -26,14 +26,4 @@ try {
   }
 } finally { $zip.Dispose() }
 Get-Item -LiteralPath $zipPath | Select-Object FullName,Length
-$uploadPath = Join-Path $OutputDirectory "$slug-$($manifest.version)-upload.zip"
-if ((Test-Path -LiteralPath $uploadPath) -and -not $Force) { throw "Archive already exists: $uploadPath" }
-$uploadItems = @('manifest.json','logo') | ForEach-Object { Join-Path $projectRoot $_ }
-Compress-Archive -LiteralPath $uploadItems -DestinationPath $uploadPath -Force
-$archive = [System.IO.Compression.ZipFile]::OpenRead($uploadPath)
-try {
-  $entries = @($archive.Entries | ForEach-Object { $_.FullName -replace '\\', '/' })
-  if ($entries -notcontains 'manifest.json' -or $entries -notcontains 'logo/logo128.png') { throw 'Upload package missing required files' }
-} finally { $archive.Dispose() }
-Get-Item -LiteralPath $uploadPath | Select-Object FullName,Length
 
