@@ -1,17 +1,3 @@
-NAME
-Creamy Sky Theme
-
-SUMMARY
-A bright Chrome theme blending creamy yellow, soft ivory, and clear sky blue for a sunny calm browsing space.
-
-DESCRIPTION
 Creamy Sky Theme brings a little sunshine to Chrome. A clear sky-blue frame pairs with a creamy yellow toolbar and active tab, while warm ivory keeps your new tab page light and calm. Blue-gray text and icons keep the interface clear and easy to read.
 
-A simple flat sun-and-cloud icon captures the bright, airy palette. Solid colors throughout, with no wallpaper, no extra scripts, and no permissions required.
-
-PROMO
-A little sunshine in every tab.
-
-MARQUEE
-Blue skies. Warm cream.
-A little sunshine in every tab.
+A simple flat sun-and-cloud icon captures the bright, airy palette. Solid colors throughout, with no wallpaper, no extra scripts, no permissions required, and no data collected.
