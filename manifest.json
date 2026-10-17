@@ -1,0 +1,96 @@
+{
+  "manifest_version": 3,
+  "name": "Creamy Sky Theme",
+  "version": "1.0.0",
+  "description": "A bright Chrome theme blending creamy yellow, soft ivory, and clear sky blue for a sunny calm browsing space.",
+  "icons": {
+    "128": "logo/logo128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [
+        158,
+        220,
+        243
+      ],
+      "frame_inactive": [
+        158,
+        220,
+        243
+      ],
+      "toolbar": [
+        253,
+        232,
+        178
+      ],
+      "tab_text": [
+        54,
+        69,
+        78
+      ],
+      "tab_background_text": [
+        54,
+        69,
+        78
+      ],
+      "tab_background_text_inactive": [
+        54,
+        69,
+        78
+      ],
+      "bookmark_text": [
+        54,
+        69,
+        78
+      ],
+      "toolbar_text": [
+        54,
+        69,
+        78
+      ],
+      "toolbar_button_icon": [
+        54,
+        69,
+        78
+      ],
+      "omnibox_background": [
+        255,
+        253,
+        246
+      ],
+      "omnibox_text": [
+        54,
+        69,
+        78
+      ],
+      "ntp_background": [
+        255,
+        251,
+        242
+      ],
+      "ntp_text": [
+        54,
+        69,
+        78
+      ],
+      "ntp_link": [
+        54,
+        116,
+        153
+      ],
+      "ntp_header": [
+        54,
+        116,
+        153
+      ],
+      "button_background": [
+        158,
+        220,
+        243
+      ]
+    },
+    "properties": {
+      "ntp_logo_alternate": 1
+    }
+  }
+}
